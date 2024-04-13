@@ -40,6 +40,7 @@
   "keyToString": {
     "JUnit.CartControllerTest.executor": "Run",
     "JUnit.ItemControllerTest.executor": "Run",
+    "JUnit.OrderControllerTest and 3 more.executor": "Coverage",
     "JUnit.OrderControllerTest.executor": "Run",
     "JUnit.UserControllerTest.executor": "Run",
     "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",

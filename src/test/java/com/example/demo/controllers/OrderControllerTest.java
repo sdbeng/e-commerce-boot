@@ -70,4 +70,11 @@ public class OrderControllerTest {
         assertNotNull(ordersForUserResponse);
         assertEquals(200, ordersForUserResponse.getStatusCodeValue());
     }
+
+    @Test
+    public void get_orders_for_user_not_found() {
+        ResponseEntity<List<UserOrder>> ordersForUserResponse = orderController.getOrdersForUser("Beatricce");
+        assertNotNull(ordersForUserResponse);
+        assertEquals(404, ordersForUserResponse.getStatusCodeValue());
+    }
 }
