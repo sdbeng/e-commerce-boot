@@ -63,4 +63,14 @@ public class ItemControllerTest {
         assertNotNull(response);
         assertEquals(200, response.getStatusCodeValue());
     }
+
+    @Test
+    public void get_by_id_error_path() {
+        Long id = 1L;
+        when(itemRepository.findById(id)).thenReturn(java.util.Optional.empty());
+
+        ResponseEntity<Item> response = itemController.getItemById(id);
+        assertNotNull(response);
+        assertEquals(404, response.getStatusCodeValue());
+    }
 }
