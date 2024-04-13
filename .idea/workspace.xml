@@ -52,7 +52,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.OrderControllerTest">
+  <component name="RunManager" selected="JUnit.OrderControllerTest and 3 more">
     <configuration name="CartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
@@ -79,6 +79,19 @@
       <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-course" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.example.demo.controllers.OrderControllerTest" />
+        <pattern testClass="com.example.demo.controllers.CartControllerTest" />
+        <pattern testClass="com.example.demo.controllers.ItemControllerTest" />
+        <pattern testClass="com.example.demo.controllers.UserControllerTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderControllerTest and 3 more" />
         <item itemvalue="JUnit.OrderControllerTest" />
         <item itemvalue="JUnit.ItemControllerTest" />
         <item itemvalue="JUnit.CartControllerTest" />
