@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41e078c-d1af-42d6-9999-8b5e220e332c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JWTAuthenticationVerficationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/WebSecurityConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
