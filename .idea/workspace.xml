@@ -58,7 +58,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ItemControllerTest.get_by_id_error_path">
+  <component name="RunManager" selected="JUnit.ItemControllerTest">
     <configuration name="CartControllerTest and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -72,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartControllerTest.get_cart_quantity_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
         <pattern>
@@ -81,25 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.CartControllerTest" />
-      <option name="METHOD_NAME" value="get_cart_quantity_happy_path" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartControllerTest.item_not_found_in_cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auth-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.CartControllerTest" />
-      <option name="METHOD_NAME" value="item_not_found_in_cart" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.password_length_validation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemControllerTest.search_by_name_error_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +112,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="password_length_validation" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="search_by_name_error_path" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemControllerTest.search_by_name_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
+      <option name="METHOD_NAME" value="search_by_name_happy_path" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemControllerTest" />
+        <item itemvalue="JUnit.ItemControllerTest.search_by_name_happy_path" />
+        <item itemvalue="JUnit.ItemControllerTest.search_by_name_error_path" />
         <item itemvalue="JUnit.ItemControllerTest.get_by_id_error_path" />
         <item itemvalue="JUnit.CartControllerTest and 3 more" />
-        <item itemvalue="JUnit.CartControllerTest.item_not_found_in_cart" />
-        <item itemvalue="JUnit.CartControllerTest.get_cart_quantity_happy_path" />
-        <item itemvalue="JUnit.UserControllerTest.password_length_validation" />
       </list>
     </recent_temporary>
   </component>
