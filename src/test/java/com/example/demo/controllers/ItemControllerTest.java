@@ -37,4 +37,30 @@ public class ItemControllerTest {
         assertNotNull(response);
         assertEquals(200, response.getStatusCodeValue());
     }
+
+    @Test
+    public void get_item_by_id_happy_path() {
+        Long id = 1L;
+        Item item = new Item();
+        item.setName("Round gadget");
+        when(itemRepository.findById(id)).thenReturn(java.util.Optional.of(item));
+
+        ResponseEntity<Item> response = itemController.getItemById(id);
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+    }
+
+    @Test
+    public void get_items_by_name_happy_path() {
+        String name = "Round gadget";
+        ArrayList<Item> items = new ArrayList<>();
+        Item item = new Item();
+        item.setName("Round gadget");
+        items.add(item);
+        when(itemRepository.findByName(name)).thenReturn(items);
+
+        ResponseEntity response = itemController.getItemsByName(name);
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+    }
 }
