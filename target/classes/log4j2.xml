@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
-    <Properties>
-        <Property name="csvLog.fileName">csvLog</Property>
-        <Property name="file-header">datetime, userId, service, message, code</Property>
-    </Properties>
-    <Filters>
-        <MarkerFilter marker="CSV" />
-    </Filters>
+<Configuration status="DEBUG">
     <Appenders>
-        <Console name="Console" target="SYSTEM_OUT" follow="true">
-            <PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5p %c{1}:%L - %msg%n" />
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
-        <RollingFile name="csvFile" fileName="${csvLog.fileName}.csv" filePattern="${csvLog.filename}-%d{MM-dd-yyyy}-%i.csv">
-            <CsvParameterLayout delimiter="," header="${file-header}\n" />
-            <Policies>
-                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
-                <SizeBasedTriggeringPolicy size="200 MB" />
-            </Policies>
-            <DefaultRolloverStrategy max="5" />
-        </RollingFile>
+        <File name="LogToFile" fileName="splunklogs/ecommerce1.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
     </Appenders>
     <Loggers>
-        <Root level="debug" additivity="false">
-            <AppenderRef ref="csvFile" level="debug" />
+        <Logger name="com.example" level="debug" additivity="false">
+            <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+        <Logger name="org.springframework.boot" level="error" additivity="false">
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+        <Root level="error">
+            <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="LogToConsole"/>
         </Root>
     </Loggers>
 </Configuration>

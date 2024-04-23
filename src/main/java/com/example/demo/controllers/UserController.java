@@ -2,7 +2,7 @@ package com.example.demo.controllers;
 
 import java.util.Optional;
 
-import com.example.demo.Logger.Logger;
+import com.example.demo.Logger.Logger2;
 import org.apache.logging.log4j.LogManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -26,7 +26,7 @@ import com.example.demo.model.requests.CreateUserRequest;
 public class UserController {
 
 	@Autowired
-	private Logger Logger;
+	private Logger2 Logger2;
 	
 	@Autowired
 	private UserRepository userRepository;
@@ -56,7 +56,7 @@ public class UserController {
 		log.info("User Ctrl-> create user account...");
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
-        Logger.logToCsv(null, "Service: createUser", "Username set to " + user.getUsername(), "200");
+        Logger2.logToCsv(null, "Service: createUser", "Username set to " + user.getUsername(), "200");
 		Cart cart = new Cart();
 		cartRepository.save(cart);
 		user.setCart(cart);
@@ -64,12 +64,12 @@ public class UserController {
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
 			//System.out.println("Error - Either length is less than 7 or pass and conf pass do not match. Unable to create ",
 			//		createUserRequest.getUsername());
-			Logger.logToCsv(null, "Service: createUser", "Password less that 7 characters", "404");
+			Logger2.logToCsv(null, "Service: createUser", "Password less that 7 characters", "404");
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
 		userRepository.save(user);
-		Logger.logToCsv(null, "Service: createUser", "User created successfully" + user.getUsername(), "200");
+		Logger2.logToCsv(null, "Service: createUser", "User created successfully" + user.getUsername(), "200");
 		log.info("User account created successfully...");
 		return ResponseEntity.ok(user);
 	}

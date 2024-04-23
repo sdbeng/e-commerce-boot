@@ -6,12 +6,12 @@ import org.apache.logging.log4j.MarkerManager;
 
 import java.time.Instant;
 
-public class Logger {
+public class Logger2 {
 
     public static final org.apache.logging.log4j.Logger log = LogManager.getLogger();
     private static final Marker CSV_MARKER = MarkerManager.getMarker("CSV");
 
-    public Logger() {
+    public Logger2() {
     }
 
     public void logToCsv(Number userId, String service, String message, String code) {
