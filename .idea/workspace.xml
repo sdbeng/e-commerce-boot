@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41e078c-d1af-42d6-9999-8b5e220e332c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/splunklogs/ecommerce1.log" beforeDir="false" afterPath="$PROJECT_DIR$/splunklogs/ecommerce1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CartControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/controllers/CartControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/CartControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/controllers/CartControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,46 +41,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SareetaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CartControllerTest and 3 more.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CartControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CartControllerTest.get_cart_quantity_happy_path.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CartControllerTest.item_not_found_in_cart.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ItemControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ItemControllerTest.get_by_id_error_path.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ItemControllerTest.search_by_name_error_path.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ItemControllerTest.search_by_name_happy_path.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.OrderControllerTest and 3 more.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.OrderControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserControllerTest.password_length_validation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.com.example.demo in auth-course.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.com.example.demo.controllers in auth-course.executor&quot;: &quot;Coverage&quot;,
-    &quot;Maven.auth-course [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.auth-course [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.auth-course [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sergb/ecommerceapp&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SareetaApplication.executor": "Run",
+    "JUnit.CartControllerTest and 3 more.executor": "Coverage",
+    "JUnit.CartControllerTest.executor": "Run",
+    "JUnit.CartControllerTest.get_cart_quantity_happy_path.executor": "Run",
+    "JUnit.CartControllerTest.item_not_found_in_cart.executor": "Run",
+    "JUnit.CartControllerTest.remove_from_cart_happy_path.executor": "Run",
+    "JUnit.ItemControllerTest.executor": "Run",
+    "JUnit.ItemControllerTest.get_by_id_error_path.executor": "Run",
+    "JUnit.ItemControllerTest.search_by_name_error_path.executor": "Run",
+    "JUnit.ItemControllerTest.search_by_name_happy_path.executor": "Run",
+    "JUnit.OrderControllerTest and 3 more.executor": "Coverage",
+    "JUnit.OrderControllerTest.executor": "Run",
+    "JUnit.UserControllerTest.executor": "Run",
+    "JUnit.UserControllerTest.password_length_validation.executor": "Run",
+    "JUnit.com.example.demo in auth-course.executor": "Coverage",
+    "JUnit.com.example.demo.controllers in auth-course.executor": "Coverage",
+    "Maven.auth-course [clean].executor": "Run",
+    "Maven.auth-course [compile].executor": "Run",
+    "Maven.auth-course [validate].executor": "Run",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sergb/ecommerceapp",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.SareetaApplication">
-    <configuration name="SareetaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.SareetaApplication" />
+}]]></component>
+  <component name="RunManager" selected="JUnit.OrderControllerTest">
+    <configuration name="CartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.CartControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartControllerTest.remove_from_cart_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.CartControllerTest" />
+      <option name="METHOD_NAME" value="remove_from_cart_happy_path" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemControllerTest.search_by_name_happy_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
         <pattern>
@@ -104,28 +128,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.ItemControllerTest" />
-      <option name="METHOD_NAME" value="search_by_name_happy_path" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.OrderControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.demo in auth-course" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="auth-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.demo.controllers in auth-course" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo.controllers" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.controllers.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SareetaApplication" />
-        <item itemvalue="JUnit.com.example.demo in auth-course" />
-        <item itemvalue="JUnit.com.example.demo.controllers in auth-course" />
+        <item itemvalue="JUnit.OrderControllerTest" />
         <item itemvalue="JUnit.ItemControllerTest" />
-        <item itemvalue="JUnit.ItemControllerTest.search_by_name_happy_path" />
+        <item itemvalue="JUnit.CartControllerTest" />
+        <item itemvalue="JUnit.CartControllerTest.remove_from_cart_happy_path" />
+        <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
