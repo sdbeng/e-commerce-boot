@@ -46,14 +46,14 @@ public class UserController {
 	
 	@GetMapping("/{username}")
 	public ResponseEntity<User> findByUserName(@PathVariable String username) {
-		log.info("User Ctrl-> Searching for user account...");
+		log.info("User Ctrl-> Searching for user account...", username);
 		User user = userRepository.findByUsername(username);
 		return user == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(user);
 	}
 	
 	@PostMapping("/create")
 	public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
-		log.info("User Ctrl-> create user account...");
+		log.info("User Ctrl-> create user account...", createUserRequest.getUsername());
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
         Logger2.logToCsv(null, "Service: createUser", "Username set to " + user.getUsername(), "200");

@@ -1,6 +1,8 @@
 package com.example.demo.controllers;
 
 import java.util.List;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -18,23 +20,27 @@ public class ItemController {
 
 	@Autowired
 	private ItemRepository itemRepository;
+	private static final Logger log = LogManager.getLogger(CartController.class);
 	
 	@GetMapping
 	public ResponseEntity<List<Item>> getItems() {
+		log.info("ItemService: Getting all items..", itemRepository.findAll());
 		return ResponseEntity.ok(itemRepository.findAll());
 	}
 	
 	@GetMapping("/{id}")
 	public ResponseEntity<Item> getItemById(@PathVariable Long id) {
+		log.info("ItemService: Getting item by id..", id);
 		return ResponseEntity.of(itemRepository.findById(id));
 	}
 	
 	@GetMapping("/name/{name}")
 	public ResponseEntity<List<Item>> getItemsByName(@PathVariable String name) {
+		log.info("ItemService: Getting item by name..", name);
 		List<Item> items = itemRepository.findByName(name);
+		log.info("ItemService: Item fetched..", items);
 		return items == null || items.isEmpty() ? ResponseEntity.notFound().build()
 				: ResponseEntity.ok(items);
-			
 	}
 	
 }

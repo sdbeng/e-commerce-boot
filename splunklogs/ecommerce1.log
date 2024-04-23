@@ -39,3 +39,13 @@
 2024-04-22 18:13:40,976 DEBUG c.e.d.L.Logger2 [http-nio-8080-exec-4] CSV Logs
 2024-04-22 18:13:40,976 INFO c.e.d.c.UserController [http-nio-8080-exec-4] User account created successfully...
 2024-04-22 18:13:55,055 INFO c.e.d.c.UserController [http-nio-8080-exec-5] User Ctrl-> Searching for user account...
+2024-04-22 20:55:20,562 INFO c.e.d.SareetaApplication [main] *** E-commerce Application started...
+2024-04-22 20:55:20,857 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Sergios-MacBook-Pro-2.local with PID 71127 (/Users/sergb/ecommerceapp/target/classes started by sergb in /Users/sergb/ecommerceapp)
+2024-04-22 20:55:20,859 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2024-04-22 20:55:20,860 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-04-22 20:55:23,927 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.3 seconds (JVM running for 4.009)
+2024-04-22 20:55:23,930 DEBUG c.e.d.SareetaApplication [main] We've just greeted the user!
+2024-04-22 20:55:23,930 INFO c.e.d.SareetaApplication [main] We've just greeted the user!
+2024-04-22 20:55:23,930 WARN c.e.d.SareetaApplication [main] We've just greeted the user!
+2024-04-22 20:55:23,930 ERROR c.e.d.SareetaApplication [main] We've just greeted the user!
+2024-04-22 20:55:23,931 FATAL c.e.d.SareetaApplication [main] We've just greeted the user!
