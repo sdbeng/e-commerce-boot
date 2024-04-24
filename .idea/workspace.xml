@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a41e078c-d1af-42d6-9999-8b5e220e332c" name="Changes" comment="" />
+    <list default="true" id="a41e078c-d1af-42d6-9999-8b5e220e332c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/auth-course-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.SareetaApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.SareetaApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.CartControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.CartControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.ItemControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.ItemControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.OrderControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.OrderControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.UserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.controllers.UserControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.SareetaApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.SareetaApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.CartControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.CartControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.ItemControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.ItemControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.OrderControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.OrderControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.UserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.controllers.UserControllerTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,37 +51,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SareetaApplication.executor": "Run",
-    "JUnit.CartControllerTest and 3 more.executor": "Coverage",
-    "JUnit.CartControllerTest.executor": "Run",
-    "JUnit.CartControllerTest.get_cart_quantity_happy_path.executor": "Run",
-    "JUnit.CartControllerTest.item_not_found_in_cart.executor": "Run",
-    "JUnit.CartControllerTest.remove_from_cart_happy_path.executor": "Run",
-    "JUnit.ItemControllerTest.executor": "Run",
-    "JUnit.ItemControllerTest.get_by_id_error_path.executor": "Run",
-    "JUnit.ItemControllerTest.search_by_name_error_path.executor": "Run",
-    "JUnit.ItemControllerTest.search_by_name_happy_path.executor": "Run",
-    "JUnit.OrderControllerTest and 3 more.executor": "Coverage",
-    "JUnit.OrderControllerTest.executor": "Run",
-    "JUnit.UserControllerTest.executor": "Run",
-    "JUnit.UserControllerTest.password_length_validation.executor": "Run",
-    "JUnit.com.example.demo in auth-course.executor": "Coverage",
-    "JUnit.com.example.demo.controllers in auth-course.executor": "Coverage",
-    "Maven.auth-course [clean].executor": "Run",
-    "Maven.auth-course [compile].executor": "Run",
-    "Maven.auth-course [validate].executor": "Run",
-    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
-    "RunOnceActivity.CodyHistoryLlmMigration": "true",
-    "RunOnceActivity.CodyProjectSettingsMigration": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sergb/ecommerceapp",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SareetaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerTest and 3 more.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CartControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerTest.get_cart_quantity_happy_path.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerTest.item_not_found_in_cart.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartControllerTest.remove_from_cart_happy_path.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ItemControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ItemControllerTest.get_by_id_error_path.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ItemControllerTest.search_by_name_error_path.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ItemControllerTest.search_by_name_happy_path.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderControllerTest and 3 more.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.OrderControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.password_length_validation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.example.demo in auth-course.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.com.example.demo.controllers in auth-course.executor&quot;: &quot;Coverage&quot;,
+    &quot;Maven.auth-course [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-course [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-course [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-course [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-course [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-course [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sergb/ecommerceapp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.OrderControllerTest">
     <configuration name="CartControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auth-course" />
@@ -175,6 +195,20 @@
       <updated>1712505360287</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ecommerceapp$OrderControllerTest_and_3_more.ic" NAME="OrderControllerTest and 3 more Coverage Results" MODIFIED="1713040280200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
