@@ -56,20 +56,15 @@ public class UserController {
 		log.info("User Ctrl-> create user account...", createUserRequest.getUsername());
 		User user = new User();
 		user.setUsername(createUserRequest.getUsername());
-        Logger2.logToCsv(null, "Service: createUser", "Username set to " + user.getUsername(), "200");
 		Cart cart = new Cart();
 		cartRepository.save(cart);
 		user.setCart(cart);
 		if(createUserRequest.getPassword().length()<7 ||
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())){
-			//System.out.println("Error - Either length is less than 7 or pass and conf pass do not match. Unable to create ",
-			//		createUserRequest.getUsername());
-			Logger2.logToCsv(null, "Service: createUser", "Password less that 7 characters", "404");
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
 		userRepository.save(user);
-		Logger2.logToCsv(null, "Service: createUser", "User created successfully" + user.getUsername(), "200");
 		log.info("User account created successfully...");
 		return ResponseEntity.ok(user);
 	}

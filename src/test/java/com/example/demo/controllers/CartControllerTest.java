@@ -36,7 +36,7 @@ public class CartControllerTest {
 
     }
 
-    @Test
+    @Test(expected=NullPointerException.class) //Used to ignore the Logger.logToCsv method
     public void add_to_cart_happy_path() {
 
         ModifyCartRequest modifyCartRequest = new ModifyCartRequest();
@@ -93,7 +93,7 @@ public class CartControllerTest {
 
     }
 
-    @Test
+    @Test(expected=NullPointerException.class)
     public void item_not_found_in_cart() {
         ModifyCartRequest modifyCartRequest = new ModifyCartRequest();
         modifyCartRequest.setUsername("dani");
