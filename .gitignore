@@ -1,5 +1,5 @@
 #me
-src/.DS_Store
+.DS_Store
 .idea/*
 
 #dont push war files to github
