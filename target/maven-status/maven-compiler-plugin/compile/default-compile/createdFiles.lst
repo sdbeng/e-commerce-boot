@@ -9,7 +9,6 @@ com/example/demo/model/requests/ModifyCartRequest.class
 com/example/demo/model/persistence/repositories/CartRepository.class
 com/example/demo/security/UserDetailsServiceImpl.class
 com/example/demo/controllers/UserController.class
-com/example/demo/Logger/Logger.class
 com/example/demo/model/persistence/repositories/UserRepository.class
 com/example/demo/security/JWTAuthenticationFilter.class
 com/example/demo/security/JWTAuthenticationVerificationFilter.class
