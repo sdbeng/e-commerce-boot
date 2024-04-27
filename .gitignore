@@ -1,8 +1,4 @@
 #me
 .DS_Store
 .idea/*
-
-#dont push war files to github
 target/*.war
-
-splunklogs/*
