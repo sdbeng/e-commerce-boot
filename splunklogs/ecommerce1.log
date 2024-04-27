@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-04-22 18:02:36,672 INFO c.e.d.SareetaApplication [main] *** E-commerce Application started...
 2024-04-22 18:02:36,955 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Sergios-MacBook-Pro-2.local with PID 46829 (/Users/sergb/ecommerceapp/target/classes started by sergb in /Users/sergb/ecommerceapp)
 2024-04-22 18:02:36,957 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
@@ -122,3 +123,121 @@
 2024-04-22 21:37:29,237 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
 2024-04-22 21:37:29,238 INFO c.e.d.c.CartController [main] OrderService: Order created..
 2024-04-22 21:37:29,238 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+=======
+2024-04-26 08:12:00,159 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Sergios-MacBook-Pro-2.local with PID 89450 (started by sergb in /Users/sergb/ecommerceapp)
+2024-04-26 08:12:00,166 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2024-04-26 08:12:00,166 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2024-04-26 08:12:03,314 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 3.333 seconds (JVM running for 4.516)
+2024-04-26 08:12:03,548 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-26 08:12:03,549 INFO c.e.d.c.UserController [main] User account created successfully...
+2024-04-26 08:12:03,553 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-26 08:12:03,576 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-26 08:12:03,577 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:03,577 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:03,578 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:03,578 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:03,578 INFO c.e.d.c.CartController [main] ItemService: Getting all items..
+2024-04-26 08:12:03,579 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:03,579 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:03,580 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-26 08:12:03,581 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-26 08:12:03,582 INFO c.e.d.c.CartController [main] CartService: Remove from cart service started...
+2024-04-26 08:12:03,583 INFO c.e.d.c.CartController [main] Remove from Cart: item(s) removed from cart successfully...0
+2024-04-26 08:12:03,583 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-26 08:12:03,608 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-26 08:12:03,608 WARN c.e.d.c.CartController [main] OrderService: Order history not found..
+2024-04-26 08:12:03,609 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-26 08:12:03,610 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-26 08:12:03,610 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-26 08:12:03,610 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-26 08:12:03,610 INFO c.e.d.c.CartController [main] OrderService: Order history fetched..
+2024-04-26 08:12:03,611 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-26 08:12:03,611 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-26 08:12:03,611 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-26 08:12:14,670 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Sergios-MacBook-Pro-2.local with PID 89545 (started by sergb in /Users/sergb/ecommerceapp)
+2024-04-26 08:12:14,677 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2024-04-26 08:12:14,678 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2024-04-26 08:12:17,300 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 2.782 seconds (JVM running for 3.717)
+2024-04-26 08:12:17,532 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-26 08:12:17,534 INFO c.e.d.c.UserController [main] User account created successfully...
+2024-04-26 08:12:17,536 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-26 08:12:17,562 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-26 08:12:17,563 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:17,564 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:17,564 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:17,564 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:17,565 INFO c.e.d.c.CartController [main] ItemService: Getting all items..
+2024-04-26 08:12:17,565 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:17,565 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:17,566 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-26 08:12:17,567 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-26 08:12:17,569 INFO c.e.d.c.CartController [main] CartService: Remove from cart service started...
+2024-04-26 08:12:17,569 INFO c.e.d.c.CartController [main] Remove from Cart: item(s) removed from cart successfully...0
+2024-04-26 08:12:17,570 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-26 08:12:17,597 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-26 08:12:17,598 WARN c.e.d.c.CartController [main] OrderService: Order history not found..
+2024-04-26 08:12:17,599 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-26 08:12:17,599 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-26 08:12:17,599 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-26 08:12:17,600 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-26 08:12:17,600 INFO c.e.d.c.CartController [main] OrderService: Order history fetched..
+2024-04-26 08:12:17,601 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-26 08:12:17,601 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-26 08:12:17,601 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-26 08:12:27,320 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Sergios-MacBook-Pro-2.local with PID 89649 (started by sergb in /Users/sergb/ecommerceapp)
+2024-04-26 08:12:27,326 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2024-04-26 08:12:27,327 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2024-04-26 08:12:29,926 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 2.754 seconds (JVM running for 3.686)
+2024-04-26 08:12:30,142 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-26 08:12:30,144 INFO c.e.d.c.UserController [main] User account created successfully...
+2024-04-26 08:12:30,147 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-26 08:12:30,173 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-26 08:12:30,174 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:30,174 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:30,175 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:30,175 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:30,175 INFO c.e.d.c.CartController [main] ItemService: Getting all items..
+2024-04-26 08:12:30,176 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-26 08:12:30,176 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-26 08:12:30,176 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-26 08:12:30,178 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-26 08:12:30,179 INFO c.e.d.c.CartController [main] CartService: Remove from cart service started...
+2024-04-26 08:12:30,179 INFO c.e.d.c.CartController [main] Remove from Cart: item(s) removed from cart successfully...0
+2024-04-26 08:12:30,180 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-26 08:12:30,202 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-26 08:12:30,202 WARN c.e.d.c.CartController [main] OrderService: Order history not found..
+2024-04-26 08:12:30,203 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-26 08:12:30,203 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-26 08:12:30,203 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-26 08:12:30,203 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-26 08:12:30,204 INFO c.e.d.c.CartController [main] OrderService: Order history fetched..
+2024-04-26 08:12:30,204 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-26 08:12:30,204 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-26 08:12:30,205 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+>>>>>>> ca065b7 (clean compile package, prep ci build)
+2024-04-27 12:47:13,178 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-27 12:47:13,202 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-27 12:47:13,203 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-27 12:47:13,205 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-27 12:47:13,206 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-27 12:47:13,207 INFO c.e.d.c.CartController [main] ItemService: Getting all items..
+2024-04-27 12:47:13,209 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-27 12:47:13,209 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-27 12:47:13,211 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-27 12:47:13,356 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-27 12:47:13,365 INFO c.e.d.c.UserController [main] User account created successfully...
+2024-04-27 12:47:13,367 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-27 12:47:13,372 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-27 12:47:13,378 INFO c.e.d.c.CartController [main] CartService: Remove from cart service started...
+2024-04-27 12:47:13,380 INFO c.e.d.c.CartController [main] Remove from Cart: item(s) removed from cart successfully...0
+2024-04-27 12:47:13,383 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-27 12:47:13,420 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-27 12:47:13,421 WARN c.e.d.c.CartController [main] OrderService: Order history not found..
+2024-04-27 12:47:13,423 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-27 12:47:13,423 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-27 12:47:13,424 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-27 12:47:13,424 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-27 12:47:13,424 INFO c.e.d.c.CartController [main] OrderService: Order history fetched..
+2024-04-27 12:47:13,425 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-27 12:47:13,426 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-27 12:47:13,426 INFO c.e.d.c.CartController [main] OrderService: Order saved..
