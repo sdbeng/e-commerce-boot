@@ -1,0 +1,26 @@
+2024-04-28 07:44:44,855 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-28 07:44:44,880 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-28 07:44:44,881 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-28 07:44:44,883 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-28 07:44:44,884 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-28 07:44:44,885 INFO c.e.d.c.CartController [main] ItemService: Getting all items..
+2024-04-28 07:44:44,887 INFO c.e.d.c.CartController [main] ItemService: Getting item by name..
+2024-04-28 07:44:44,887 INFO c.e.d.c.CartController [main] ItemService: Item fetched..
+2024-04-28 07:44:44,888 INFO c.e.d.c.CartController [main] ItemService: Getting item by id..
+2024-04-28 07:44:44,983 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-28 07:44:44,984 INFO c.e.d.c.UserController [main] User account created successfully...
+2024-04-28 07:44:44,985 INFO c.e.d.c.UserController [main] User Ctrl-> create user account...
+2024-04-28 07:44:44,990 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-28 07:44:44,994 INFO c.e.d.c.CartController [main] CartService: Remove from cart service started...
+2024-04-28 07:44:44,996 INFO c.e.d.c.CartController [main] Remove from Cart: item(s) removed from cart successfully...0
+2024-04-28 07:44:44,997 INFO c.e.d.c.CartController [main] CartService: Add to cart service started...
+2024-04-28 07:44:45,023 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-28 07:44:45,023 WARN c.e.d.c.CartController [main] OrderService: Order history not found..
+2024-04-28 07:44:45,024 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-28 07:44:45,025 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-28 07:44:45,025 INFO c.e.d.c.CartController [main] OrderService: Order saved..
+2024-04-28 07:44:45,025 INFO c.e.d.c.CartController [main] OrderService: Fetching order history..
+2024-04-28 07:44:45,025 INFO c.e.d.c.CartController [main] OrderService: Order history fetched..
+2024-04-28 07:44:45,027 INFO c.e.d.c.CartController [main] OrderService: Submitting order..
+2024-04-28 07:44:45,027 INFO c.e.d.c.CartController [main] OrderService: Order created..
+2024-04-28 07:44:45,027 INFO c.e.d.c.CartController [main] OrderService: Order saved..
