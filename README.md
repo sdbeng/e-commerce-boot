@@ -15,3 +15,6 @@ github --> Jenkins --> Tomcat server:8888
 - When login is done under output body you will get Bearer token value.
 
 - Then you need to perform rest of thing by giving authentication.
+
+## Reviewer
+The screenshots are added to the root of the project.
