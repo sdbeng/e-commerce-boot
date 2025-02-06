@@ -64,7 +64,7 @@
         </chat>
         <chat>
           <accountId value="VXNlcjozMTA1NzY=" />
-          <internalId value="40f27ec4-f51f-4ce7-9e5c-c4b11849596c" />
+          <internalId value="af6375e7-d77c-47be-8154-2f7406668dec" />
           <llm>
             <llm>
               <model value="anthropic/claude-3-sonnet-20240229" />

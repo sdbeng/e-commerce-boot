@@ -6,3 +6,4 @@
 target/*.war
 
 splunklogs/*
+target/*.war
